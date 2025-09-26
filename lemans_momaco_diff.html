@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diff Viewer</title>
+  <style>
+    body {
+      background: #1e1e1e;
+      color: #dcdcdc;
+      font-family: monospace;
+      padding: 20px;
+    }
+    pre {
+      white-space: pre-wrap;   /* 自動換行 */
+      word-break: break-word;  /* 長字也能折行 */
+      overflow-x: hidden;      /* 禁止水平 scroll bar */
+    }
+    .add    { color: #81c784; } /* 綠色 */
+    .remove { color: #e57373; } /* 紅色 */
+  </style>
+</head>
+<body>
+  <h1>Git Diff Preview</h1>
+  <pre>
+<code>
+<span class="remove">- print("Hello World")</span>
+<span class="add">+ print("Hello, GitHub!")</span>
+</code>
+  </pre>
+</body>
+</html>
