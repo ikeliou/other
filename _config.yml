@@ -1,0 +1,7 @@
+title: Diff Jekyll Demo
+theme: minima                 # 用官方支援的主題
+markdown: kramdown
+kramdown:
+  input: GFM                  # 支援 GitHub 風格 Markdown（含 ```diff）
+highlighter: rouge            # GitHub Pages 支援的語法高亮
+# GitHub Pages 會自動 build，無須自訂 plugins
