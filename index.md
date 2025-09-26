@@ -13,7 +13,7 @@ index 3b18e92..94f5d42 100644
 --- a/app/main.py
 +++ b/app/main.py
 @@ -1,5 +1,8 @@
--def greet(name): print("Hello " + name)   # 這行很長很長很長很長很長很長很長很長很長，預設情況下容易造成水平捲軸aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+-def greet(name): print("Hello " + name)   # 這行很長很長很長很長很長很長很長很長很長，預設情況下容易造成水平捲軸
 +def greet(name):
 +    print(f"Hello, {name}!")              # 換行後也能正常高亮
 +    print("Welcome to GitHub diff demo 🎉")
