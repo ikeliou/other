@@ -1,0 +1,19 @@
+
+**assets/css/style.scss**（注意：要有前置區塊，Jekyll 才會處理 SCSS）
+```scss
+---
+# Only front matter so Jekyll processes this file
+---
+
+/* 讓程式碼區塊能自動換行、避免水平捲軸 */
+pre, code, pre code, .highlight, .highlight pre, .highlighter-rouge pre {
+  white-space: pre-wrap !important;  /* 允許自動換行 */
+  word-break: break-word !important; /* 長字也能折行 */
+  overflow-x: hidden !important;     /* 隱藏水平捲軸 */
+}
+
+/* 若主題對 code block 有固定寬度或 padding，可視需要微調 */
+.highlight pre, .highlighter-rouge pre {
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
