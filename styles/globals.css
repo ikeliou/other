@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens */
+:root{
+  --color-primary: #3B82F6;
+  --color-accent: #F97316;
+  --color-bg: #F8FAFC;
+  --radius-md: 8px;
+}
+
+/* Basic global rules */
+body{
+  @apply bg-bg text-text-primary;
+  font-family: Inter, system-ui, -apple-system, "Noto Sans TC", "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
